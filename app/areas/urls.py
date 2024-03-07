@@ -6,7 +6,7 @@ from app.areas import views
 #versionado de path
 
 router = routers.DefaultRouter()
-router.register(r'areas', views.AreasView, 'areas')
+router.register(r'', views.AreasView, 'areas')
 
 urlpatterns = [
     path("", include(router.urls))
