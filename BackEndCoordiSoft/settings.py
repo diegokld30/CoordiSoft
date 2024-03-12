@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'posts',
     'user',
     'app.areas.apps.AreasConfig',
+    'app.personas',
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

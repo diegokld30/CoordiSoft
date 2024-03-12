@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
+class AreasConfig(AppConfig):
+    name = 'app.personas'
+    verbose_name = 'Personas'
 
-class PersonasConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'personas'
